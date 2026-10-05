@@ -21,6 +21,8 @@ public class Institute {
 		System.out.println("trainer first name:"+TrainerName1);
 		System.out.println("trainer second name:"+TrainerName2);
 
+
+
 	}
 
 }

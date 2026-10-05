@@ -7,7 +7,7 @@ public class TestDemo1 {
 	}
 	void display() {
 		System.out.println("hi");
-		TestDemo1 t =new TestDemo1();
+		Std s1=new Std();
 	}
 
 	public static void main(String[] args) {
@@ -17,9 +17,9 @@ public class TestDemo1 {
 		TestDemo1 t3=new TestDemo1();
 		TestDemo1 t4=new TestDemo1();
 		t2=t3;
+		t3=t4;
 		System.gc();
-		t=null;
-		
+		;
 	
 
 
