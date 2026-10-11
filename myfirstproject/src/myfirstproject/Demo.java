@@ -7,6 +7,7 @@ public class Demo {
 	public static void main(String[] args) {
 		System.out.println("main method ended");
 			System.out.println("main method");
+			
 		}
 		// TODO Auto-generated method stub
 

@@ -1,8 +1,7 @@
 package myfirstproject;
 
 public class TestDemo {
-    static TestDemo t=new TestDemo();
-	static TestDemo t1=new TestDemo();
+   
 	static {
 		System.out.println("static block loaded");
 	}
@@ -11,6 +10,8 @@ public class TestDemo {
 	}
 
 	public static void main(String[] args) {
+		  TestDemo t=new TestDemo();
+		 TestDemo t1=new TestDemo();
 		System.out.println("main method stated");
 		System.out.println("main method ended");
 		// TODO Auto-generated method stub

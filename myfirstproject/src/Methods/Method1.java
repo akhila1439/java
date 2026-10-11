@@ -2,7 +2,7 @@ package Methods;
 
 public class Method1 {
 	  static void Display(int n) {
-		if(n>0)
+		if(n>0) 
 			System.out.println("positive");
 		else if(n<0)
 			System.out.println("negative");

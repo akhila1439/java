@@ -1,7 +1,7 @@
 package myfirstproject;
 
 public class Create {
-	static int count=0;
+	 int count=0;
 	{
 		count++;
 		System.out.println("Object Count : "+ count);
