@@ -1,21 +1,22 @@
 package myfirstproject;
 
 public class Newdemo {
-	static  int i=10;
-	 static String name="akhila";
-static {
-	System.out.println("age:"+i);
-}
-void display() {
-	System.out.println("name:"+name);
-}
+	
+     int age;
+	 String name;
+	 void goodmorning() {
+		System.out.println(age);
+		System.out.println(name);
+	}
+	 {
+		System.out.println("welcome to java");
+	}
 
 	public static void main(String[] args) {
-		Newdemo N=new Newdemo();
-		N.display();
+		Newdemo n=new Newdemo();
 		
-		// TODO Auto-generated method stub
-
+		n.goodmorning();
+		
 	}
 
 }

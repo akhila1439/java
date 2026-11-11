@@ -20,7 +20,6 @@ public class Cricketer {
 		Cricketer hp=new Cricketer();
 		countryID=99;
 		countryName="uk";
-		
 		hp.jerseyNumber=33;
 		hp.cricketerName="hardik padya";
 		System.out.println("countryid:"+countryID);
